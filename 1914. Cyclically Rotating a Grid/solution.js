@@ -1,3 +1,8 @@
+/**
+ * @param {Array<>} grid 
+ * @param {number} k 
+ * @returns {Array<>}
+ */
 function rotateGrid(grid, k) {
     let lengthRows = grid.length -1, lengthCols = grid[0].length - 1
     let startRow = 0, startCol = 0
